@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+frontend-react/dist/
+backend/backend.exe
+backend/backend
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CI4
+frontend-ci4/writable/logs/*
+frontend-ci4/writable/cache/*
+frontend-ci4/writable/session/*
+frontend-ci4/writable/debugbar/*
+!frontend-ci4/writable/logs/index.html
+!frontend-ci4/writable/cache/index.html
+!frontend-ci4/writable/session/index.html
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
