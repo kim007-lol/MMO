@@ -122,19 +122,19 @@ Base URL: `http://localhost:8080/api`
 ### Auth (Public)
 
 | Method | Endpoint             | Deskripsi            |
-|--------|----------------------|----------------------|
+| ------ | -------------------- | -------------------- |
 | POST   | `/api/auth/register` | Registrasi akun baru |
 | POST   | `/api/auth/login`    | Login, return JWT    |
 
 ### Users (Protected — JWT Required)
 
-| Method | Endpoint          | Deskripsi                            |
-|--------|-------------------|--------------------------------------|
-| GET    | `/api/users`      | List users (`?search=` & `?page=`)   |
-| GET    | `/api/users/:id`  | Detail user                          |
-| POST   | `/api/users`      | Tambah user baru                     |
-| PUT    | `/api/users/:id`  | Update user                          |
-| DELETE | `/api/users/:id`  | Hapus user                           |
+| Method | Endpoint         | Deskripsi                          |
+| ------ | ---------------- | ---------------------------------- |
+| GET    | `/api/users`     | List users (`?search=` & `?page=`) |
+| GET    | `/api/users/:id` | Detail user                        |
+| POST   | `/api/users`     | Tambah user baru                   |
+| PUT    | `/api/users/:id` | Update user                        |
+| DELETE | `/api/users/:id` | Hapus user                         |
 
 ---
 
@@ -142,17 +142,18 @@ Base URL: `http://localhost:8080/api`
 
 Semua akun demo menggunakan password yang sama.
 
-| Username | Password      | Role  |
-|----------|---------------|-------|
-| admin    | password123   | admin |
-| budi     | password123   | user  |
-| siti     | password123   | user  |
+| Username | Password    | Role  |
+| -------- | ----------- | ----- |
+| admin    | password123 | admin |
+| budi     | password123 | user  |
+| siti     | password123 | user  |
 
 ---
 
 ## Fitur
 
 ### Backend
+
 - REST API dengan Gin Framework
 - JWT Authentication (24 jam expiry)
 - GORM ORM + Auto Migration + Seeder
@@ -165,6 +166,7 @@ Semua akun demo menggunakan password yang sama.
 - Response JSON standar: `{ status, message, data }`
 
 ### Frontend CI4 (SSR + AJAX)
+
 - Halaman login & register (AJAX submit)
 - JWT disimpan di PHP session
 - Auth filter / middleware
@@ -178,6 +180,7 @@ Semua akun demo menggunakan password yang sama.
 - Responsive design
 
 ### Frontend React (SPA)
+
 - React Router v7
 - Auth context + Protected Route
 - JWT disimpan di localStorage
@@ -194,18 +197,18 @@ Semua akun demo menggunakan password yang sama.
 
 ## Teknologi
 
-| Layer      | Teknologi                          |
-|------------|------------------------------------|
-| Backend    | Go, Gin, GORM, JWT, bcrypt         |
-| Database   | PostgreSQL                         |
-| Frontend 1 | CI4, Bootstrap 5, jQuery, AJAX     |
-| Frontend 2 | React, Vite, React Router, Axios   |
+| Layer      | Teknologi                        |
+| ---------- | -------------------------------- |
+| Backend    | Go, Gin, GORM, JWT, bcrypt       |
+| Database   | PostgreSQL                       |
+| Frontend 1 | CI4, Bootstrap 5, jQuery, AJAX   |
+| Frontend 2 | React, Vite, React Router, Axios |
 
 ---
 
 ## Video Demo
 
-> Link video demo: *(akan ditambahkan)*
+> Link video demo: https://youtu.be/qy10bHgnLVo
 
 ---
 

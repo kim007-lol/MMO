@@ -9,6 +9,7 @@ backend/backend
 
 # Environment
 .env
+database.sql
 
 # IDE
 .idea/
