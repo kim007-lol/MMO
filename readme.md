@@ -208,7 +208,7 @@ Semua akun demo menggunakan password yang sama.
 
 ## Video Demo
 
-> Link video demo: https://youtu.be/qy10bHgnLVo
+> Link video demo: https://youtu.be/dHQ2qUyHngs
 
 ---
 
